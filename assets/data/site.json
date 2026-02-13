@@ -8,6 +8,8 @@
     { "label": "YouTube", "href": "https://youtube.com/dexnexus1", "icon": "simple-icons:youtube" },
     { "label": "Discord", "href": "https://discord.gg/NswvnCs236", "icon": "simple-icons:discord" },
     { "label": "TikTok", "href": "https://www.tiktok.com/@dexnexus", "icon": "simple-icons:tiktok" },
-    { "label": "Twitter/X", "href": "https://twitter.com/dexnexus", "icon": "simple-icons:x" }
+    { "label": "Twitter/X", "href": "https://twitter.com/dexnexus", "icon": "simple-icons:x" },
+    { "label": "BlueSky", "href": "https://bsky.app/profile/dexnexus.bsky.social", "icon": "simple-icons:bluesky" }
   ]
 }
+

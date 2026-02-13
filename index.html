@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DexNeXuS — Hub</title>
+    <meta name="description" content="DexNeXuS hub — landing page for all my sites and links." />
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,400&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/variables.css" />
+    <link rel="stylesheet" href="assets/css/layout.css" />
+    <link rel="stylesheet" href="assets/css/header.css" />
+    <link rel="stylesheet" href="assets/css/cards.css" />
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js" defer></script>
+  </head>
+  <body>
+    <a class="hub-skip-link" href="#main">Skip to content</a>
+
+    <header class="hub-header">
+      <div class="hub-header-inner hub-container">
+        <a class="hub-brand" href="index.html" aria-label="Home">
+          <span class="hub-brand-title" id="hubBrandTitle">DexNeXuS</span>
+          <span class="hub-brand-tagline" id="hubBrandTagline">Hub</span>
+        </a>
+        <div id="hubSocials" class="hub-socials" aria-label="Social links"></div>
+      </div>
+    </header>
+
+    <main id="main" class="hub-main">
+      <section class="hub-hero">
+        <div class="hub-container">
+          <p class="hub-hero-desc" id="hubHeroDesc">One place for all my sites and links.</p>
+        </div>
+      </section>
+
+      <section class="hub-cards-section">
+        <div class="hub-container">
+          <div id="hubCardsGrid" class="hub-cards-grid" role="list"></div>
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="assets/js/app.js"></script>
+  </body>
+</html>

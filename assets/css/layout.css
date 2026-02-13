@@ -1,0 +1,29 @@
+/* Layout & background */
+
+body {
+  background: radial-gradient(1000px 700px at 15% -10%, rgba(139, 92, 246, 0.22), transparent 55%),
+    radial-gradient(900px 600px at 95% 5%, rgba(96, 165, 250, 0.15), transparent 50%),
+    radial-gradient(800px 500px at 50% 100%, rgba(139, 92, 246, 0.08), transparent 55%),
+    linear-gradient(180deg, var(--hub-bg), var(--hub-bg-2));
+  min-height: 100%;
+}
+
+.hub-main {
+  padding: 32px 0 60px;
+}
+
+.hub-hero {
+  text-align: center;
+  padding: 24px 0 40px;
+}
+
+.hub-hero-desc {
+  margin: 0;
+  font-size: 1.15rem;
+  color: var(--hub-text-2);
+  font-weight: 500;
+}
+
+.hub-cards-section {
+  padding: 0;
+}

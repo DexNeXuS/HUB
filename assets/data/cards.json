@@ -1,0 +1,41 @@
+{
+  "description": "Edit this file to change hub cards. Each card: title, description, image (path or leave empty for placeholder), url (opens on card click).",
+  "cards": [
+    {
+      "title": "Streaming Lab",
+      "description": "Twitch setup, Streamer.bot, OBS, overlays, and tutorials.",
+      "image": "assets/images/dexnexus-lab.png",
+      "url": "http://stream.dexnexus.co.uk"
+    },
+    {
+      "title": "Portfolio",
+      "description": "My portfolio and projects.",
+      "image": "assets/images/portfolio.png",
+      "url": "http://portfolio.dexnexus.co.uk"
+    },
+    {
+      "title": "Google",
+      "description": "Search the web.",
+      "image": "assets/images/google.png",
+      "url": "https://www.google.com"
+    },
+    {
+      "title": "YouTube",
+      "description": "Videos and streaming.",
+      "image": "assets/images/youtube.png",
+      "url": "https://www.youtube.com"
+    },
+    {
+      "title": "GitHub",  
+      "description": "Code and projects.",
+      "image": "assets/images/github.png",
+      "url": "https://github.com"
+    },
+    {
+      "title": "Twitch",
+      "description": "Live streaming platform.",
+      "image": "assets/images/twitch.png",
+      "url": "https://www.twitch.tv"
+    }
+  ]
+}
